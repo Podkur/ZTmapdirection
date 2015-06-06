@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+		    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=XXX&sensor=TRUE">
+    		</script>
+			<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+		<script type="text/javascript" src="script.js"></script> 
+		<title>
+			Маршруты города Житомира	
+		</title>
+	</head>
+	<body>
+		<div id="top">
+			<form>
+				Створити маршрут</br></br>
+				Від <input type="text" id="from" size="32"></input>
+				До <input type="text" id="to" size="32"></input>
+				<input  type="button" value="Очистити" onclick="deleteMarkers()"></input>
+				<input  type="button" value="Побудувати маршрут" onclick="Route()"></input>	
+			</form>
+		</div>
+		<div id="map_canvas"></div>
+		<div id="marsh"></div>
+	</body>
+</html>
