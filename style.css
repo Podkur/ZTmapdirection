@@ -1,0 +1,42 @@
+html 
+{ 
+	height: 100% 
+}
+body 
+{ 
+	height: 100%; 
+	width: 100%;
+	margin: 0; 
+	padding: 0;
+}
+form
+{
+	padding: 30px 25px;
+}
+#top
+{
+	height: 18%;
+	width: 74%;
+	background: linear-gradient(to top, #FFEE0B, #005BE4);
+	margin: 25px auto;
+
+}
+#map_canvas 
+{ 	
+	width: 74%;
+	height: 70%;
+	margin: 0px auto;
+	position: absolute;
+	left: 13%;
+	top: 23%;
+}
+#marsh
+{
+	width: 14%;
+	height: 70%;
+	background: linear-gradient(to top, #005BE4, #FFEE0B);
+	position: absolute;
+	top: 23%;
+	right: 13%;
+	visibility: hidden;
+}
